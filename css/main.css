@@ -75,9 +75,49 @@ textarea {
        border-top: 0px;
        border-right: 0px;
     }
-    
+    .navbar-inverse .navbar-nav > li > a {
+        color: #000000;
+    }
+    .icon-home{
+        color: #000;
+    }
+    .icon-home:hover{
+        color: #fff;
+    }
+    .navbar-brand {
+        padding: 12px 15px;
+    }
+    .redes{
+        margin: 0.5em 0em;
+    }
+    .red{
+        margin-right: 1.5em;
+    }
+    .logo{
+        margin-bottom: 1.5em;
+    }
+    footer{
+        background: #f17e00;
+        margin-top: 0.7em;
+        border-bottom: 5px solid #000;
+    }
+    .pfooter{
+        font-size: 0.8em;
+        margin-top: 0.5em;
+        color: #fff; 
+    }
+    .pfooter span{
+        color: #000;
+    }
 
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
 
+.navbar .navbar-collapse {
+    text-align: center;
+}
 
 
 
