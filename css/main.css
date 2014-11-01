@@ -11,9 +11,10 @@ textarea {
 }
 
 body {
-    font-size: 1.5em;
+    font-size: 1.8em;
     line-height: 1.4;
     background: url(../img/fondo.jpg) repeat-x;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 ::-moz-selection {
@@ -60,10 +61,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+    .intro{
+        font-size: 1.4em;
+    }
     .google-maps iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100% !important;
     }
     .menu{
