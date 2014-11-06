@@ -13,7 +13,6 @@ textarea {
 body {
     font-size: 1.8em;
     line-height: 1.4;
-    background: url(../img/fondo.jpg) repeat-x;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -118,6 +117,17 @@ textarea {
 .navbar .navbar-collapse {
     text-align: center;
 }
+header {
+    text-align: center;
+    background-attachment: scroll;
+    background-image: url(../img/fondo.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 
 
@@ -141,6 +151,31 @@ textarea {
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
+
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
 
 }
 
